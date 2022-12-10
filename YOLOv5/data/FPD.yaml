@@ -1,0 +1,12 @@
+path: ./datasets/fpds # dataset root dir
+train: images/train # train images (relative to 'path')
+val: images/valid # val images (relative to 'path')
+test: images/test # test images (optional)
+
+# Classes
+names:
+  0: not fallen
+  1: fallen
+
+# Download script/URL (optional)
+download: pass
